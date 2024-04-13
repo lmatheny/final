@@ -184,7 +184,7 @@ function Navbar() {
         <h1 style={{ padding: '0px', fontSize: '15.5px' }}>By: Luke Matheny and Robert Klesch</h1>
         <ul style={{ padding: '10px', fontSize: '20.5px' }}>
           <li style={{ paddingRight: '40px', paddingTop: '15px', display: 'inline-block' }}>
-            <Link to="/honr460" className="button-link">Introduction</Link>
+            <Link to="/" className="button-link">Introduction</Link>
           </li>
           <li style={{ paddingRight: '40px', display: 'inline-block' }}>
             <Link to="/apply" className="button-link">Reflect</Link>
@@ -211,7 +211,7 @@ function App() {
         {/* Content */}
         <Routes>
           <Route path="/bib" element={<Sources />} />
-          <Route path="/honr460" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/apply" element={<About />} />
           <Route path="/inspire" element={<Contact />} />
         </Routes>
